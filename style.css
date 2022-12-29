@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+.bmi-content{
+    border: 2px solid gray;
+    margin: 50px 0px;
+    padding: 50px;
+    border-radius: 20px;
+}
+p{
+    margin-top: 20px;
+}
+.bmi-content h1{
+    margin-bottom: 10px;
+}
+input[placeholder]
+{
+    font-size: 16px;
+}
+.txt_box{
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.btn_cal{
+    display: block;
+    padding: 10px;
+    background-color: #008473;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
